@@ -1,0 +1,514 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: DELIRIUM NCV;
+    src: url(fonts/DELIRIUM\ NCV.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "DELIRIUM NEON NCV";
+    src: url(fonts/DELIRIUM\ NEON\ NCV.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "gilroy";
+    src: url(fonts/Gilroy-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: gilroy light;
+    src: url(fonts/Gilroy-Light.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* overflow-x: hidden; */
+}
+
+#main {
+    width: 100%;
+}
+
+#page1 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    /* background-color: red; */
+}
+
+#nav {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    /* background-color: green; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 50px 50px 0 50px;
+    line-height: 1;
+}
+
+#nav>h4 {
+    font-family: DELIRIUM NCV;
+    font-style: oblique;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+#nright {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#nright i {
+    border-radius: 50%;
+    margin-left: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    color: #fff;
+}
+
+#nright a {
+    text-decoration: none;
+    color: black;
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#nbottom {
+    position: absolute;
+    top: 100%;
+    /* font-size: 10px; */
+    font-family: "delirium NCV";
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+#page1 #home #circle {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    background-color: #487488;
+    border-radius: 50%;
+}
+
+#page1 #circle {
+    width: 30vw;
+    height: 30vw;
+    background-color: #bcd9d4;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#page1>img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    height: 75%;
+    z-index: 9999;
+    -webkit-filter: drop-shadow(30px 5px 20px rgba(0, 0, 0, 0.365));
+    filter: drop-shadow(30px 5px 20px rgba(0, 0, 0, 0.365));
+}
+
+#bottom {
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 50px;
+    z-index: 99999;
+}
+
+#bottom #bleft h4 {
+    font-family: DELIRIUM NCV;
+    font-size: 70px;
+    letter-spacing: 10px;
+    font-weight: 100;
+    line-height: 1;
+}
+
+#bottom #bleft h6 {
+    opacity: 0.5;
+    line-height: 1;
+    font-family: gilroy;
+}
+
+#bright a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-family: "Delirium NCV";
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+#bright a i {
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(153, 198, 189);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+}
+
+#page2 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(222, 222, 222);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+#p2text {
+    padding: 3vw 5vw;
+}
+
+#p2text h3 {
+    font-family: DELIRIUM NCV;
+    font-size: 7vw;
+    font-weight: 300;
+    line-height: 1;
+}
+
+#p2text p {
+    width: 40%;
+    line-height: 1;
+    opacity: 0.5;
+    font-family: gilroy;
+}
+
+#project {
+    width: 100%;
+    min-height: 60vh;
+    /* background-color: pink; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-x: auto;
+    margin-top: 30px;
+    padding: 0 5vw;
+    gap: 100px;
+}
+
+#project::-webkit-scrollbar {
+    display: none;
+}
+
+.slide {
+    position: relative;
+    width: 800px;
+    /* height: 100%; */
+    min-height: inherit;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.slide img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.slide img:nth-child(1) {
+    -webkit-filter: grayscale();
+    filter: grayscale();
+}
+
+.slide img:nth-child(2) {
+    -webkit-transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    -o-transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    -webkit-clip-path: circle(0% at 0% 0%);
+    clip-path: circle(0% at 0% 0%);
+}
+
+#page3 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#page3>h1 {
+    font-family: gilroy;
+    font-size: 8vw;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    -webkit-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    font-weight: 500;
+}
+
+#page3>p {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    width: 30%;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.4;
+    font-family: gilroy;
+}
+
+#page3 #image {
+    width: 20%;
+    height: 70%;
+    background-image: url(Assets/img3.avif);
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    background-color: red;
+}
+
+#page3 #image h1 {
+    position: absolute;
+    bottom: -20%;
+    left: -20%;
+    font-family: Delirium NCV;
+    font-weight: 100;
+    font-size: 15vw;
+    opacity: 0.3;
+}
+
+#page4 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: red; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#p4left {
+    width: 60%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 15vw;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+#p4left h3 {
+    font-family: DELIRIUM NCV;
+    font-size: 8vw;
+    letter-spacing: 5px;
+}
+
+#p4left a {
+    font-size: 1vw;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.4;
+    font-family: gilroy;
+}
+
+#p4right {
+    width: 40%;
+    min-height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1587614297882-0954a02d57f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60);
+    background-size: cover;
+    /* border: 2px solid black; */
+}
+
+@media (max-width: 500px) {
+    #nav {
+
+        padding: 10px 20px 0px 20px;
+    }
+
+    #nright i {
+        margin-left: 10px;
+    }
+
+    #nbottom {
+        top: 80%;
+    }
+
+    #page1 #circle {
+        width: 85vw;
+        height: 85vw;
+    }
+
+    #bottom {
+        padding: 0 10px;
+        bottom: 0%;
+    }
+
+    #bottom #bleft h4 {
+        font-size: 50px;
+    }
+
+    #page2 {
+        min-height: 50vh;
+        padding: 10vw 0;
+    }
+
+    #p2text h3 {
+        font-size: 27vw;
+    }
+
+    #p2text p {
+        width: 100%;
+        opacity: 0.7;
+        font-weight: 700;
+    }
+
+    #project {
+        gap: 30px;
+        min-height: 30vh;
+    }
+
+    .slide {
+        width: 300px;
+        height: 35vh;
+    }
+
+    #page3>p {
+        width: 60%;
+    }
+
+    #page3>h1 {
+        font-size: 12vw;
+    }
+
+    #page3 #image {
+        width: 25%;
+    }
+
+    #page3 #image h1 {
+        bottom: -12%;
+        left: -32%;
+        font-size: 25vw;
+    }
+
+    #page4 {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    #p4left {
+        width: 100%;
+        min-height: 50vh;
+    }
+
+    #p4right {
+        width: 100%;
+        min-height: 50vh;
+    }
+
+    #p4left h3 {
+        font-size: 10vw;
+    }
+
+    #p4left a {
+        font-size: 3vw;
+        margin-top: 10px;
+    }
+
+    #p4left a:nth-child(2) {
+        opacity: 1;
+    }
+
+}
